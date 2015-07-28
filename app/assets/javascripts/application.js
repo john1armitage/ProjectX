@@ -11,4 +11,15 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery
+//= require jquery_ujs
+//= require ember
+//= require ember-data
+//= require active-model-adapter
+//= require_self
+//= require ./accounts
+
+// for more details see: http://emberjs.com/guides/application/
+Accounts = Ember.Application.create();
+
 //= require_tree .

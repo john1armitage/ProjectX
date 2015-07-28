@@ -13,6 +13,8 @@ gem 'uglifier', '>= 1.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails' #, '3.1-stable'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'ember-rails'
+gem 'ember-source' #, '1.5.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 

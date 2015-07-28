@@ -20,6 +20,10 @@
 //= require ./accounts
 
 // for more details see: http://emberjs.com/guides/application/
+<% if Rails.env.development? %>
+  Ember.LOG_TRANSITIONS = true;
+<% end %>
+
 Accounts = Ember.Application.create();
 
 //= require_tree .
